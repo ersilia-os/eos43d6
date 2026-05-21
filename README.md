@@ -2,8 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Mycobacterium tuberculosis, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.
-
+This model was incorporated on 2026-05-19.Last packaged on 2026-05-21.
 
 ## Information
 ### Identifiers
@@ -44,12 +43,19 @@ _10 of 57 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos43d6](https://hub.docker.com/r/ersiliaos/eos43d6)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos43d6.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos43d6.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1493`
 - **Environment Size (Mb):** `1888`
+- **Image Size (Mb):** `4841.65`
 
+**Computational Performance (seconds):**
+- 10 inputs: `74.03`
+- 100 inputs: `81.07`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
