@@ -1,9 +1,14 @@
 Identifier: eos43d6
 Slug: antimicrobial-activity-mtuberculosis
 Status: In progress
-Title: Antimicrobial activity prediction against Mycobacterium tuberculosis from public ChEMBL and PubChem data
-Description: >
-  Bioactivity prediction of growth inhibition in Mycobacterium tuberculosis, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Title: Antimicrobial activity prediction against Mycobacterium tuberculosis from
+  public ChEMBL and PubChem data
+Description: Bioactivity prediction of growth inhibition in Mycobacterium 
+  tuberculosis, trained as binary (active/inactive) classifiers from publicly 
+  available data in ChEMBL and PubChem. Independent models are trained on 
+  multiple bioactivity datasets, corresponding to single-point (percent 
+  inhibition) and dose-response (MIC) assays, among others. A ranking score is 
+  provided for each model alongside a combined consensus score.
 Deployment:
   - Local
   - Online
@@ -18,7 +23,9 @@ Output:
   - Score
 Output Dimension: 57
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Mycobacterium tuberculosis from 56 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Mycobacterium 
+  tuberculosis from 56 ChEMBL- and PubChem-trained sub-models, plus a 
+  quality-weighted consensus score.
 Tag:
   - Antimicrobial activity
   - ChEMBL
@@ -32,3 +39,4 @@ Publication: https://github.com/ersilia-os/chembl-antimicrobial-models
 Source Code: https://github.com/ersilia-os/chembl-antimicrobial-models
 License: GPL-3.0-or-later
 Contributor: arnaucoma24
+Incorporation Date: '2026-05-19'
