@@ -782,7 +782,7 @@
   "calibrator": {
     "method": "platt",
     "coef": 4.841265729533659,
-    "intercept": -2.509565729716503
+    "intercept": -2.5095657297165035
   },
   "ranker": {
     "knots": [

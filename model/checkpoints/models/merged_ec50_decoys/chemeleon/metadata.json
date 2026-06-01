@@ -12,9 +12,9 @@
     "batch_priors": [
         0.1
     ],
-    "decision_cutoff_raw": 0.2179427776871204,
-    "decision_cutoff_proba": 0.08488375732785755,
-    "decision_cutoff_rank": 0.8888028895768834,
-    "decision_cutoff_logit": -2.377768338701394,
-    "decision_cutoff_lift": 0.8488375732785755
+    "decision_cutoff_raw": 0.15794651725822884,
+    "decision_cutoff_proba": 0.06652208329388888,
+    "decision_cutoff_rank": 0.8748710010319917,
+    "decision_cutoff_logit": -2.64138333411137,
+    "decision_cutoff_lift": 0.6652208329388888
 }

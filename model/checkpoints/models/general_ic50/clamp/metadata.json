@@ -1,18 +1,19 @@
 {
     "portfolio": [
         "xgb",
-        "rf"
+        "rf",
+        "svc"
     ],
     "max_batch_size": 100000,
     "max_imbalance_ratio": 100,
     "num_batches": 1,
-    "population_prior": 0.3715896506594181,
+    "population_prior": 0.2239595309266498,
     "batch_priors": [
-        0.3715896506594181
+        0.2239595309266498
     ],
-    "decision_cutoff_raw": 0.3686014345727525,
-    "decision_cutoff_proba": 0.3965065502183406,
-    "decision_cutoff_rank": 0.5896596858638743,
-    "decision_cutoff_logit": -0.420042625726322,
-    "decision_cutoff_lift": 1.0670548803356208
+    "decision_cutoff_raw": 0.23504004333690523,
+    "decision_cutoff_proba": 0.24666549666549664,
+    "decision_cutoff_rank": 0.677246243483594,
+    "decision_cutoff_logit": -1.1164762024250443,
+    "decision_cutoff_lift": 1.1013842351111345
 }
