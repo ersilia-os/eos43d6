@@ -1,7 +1,3 @@
-This model has been financed by Project PID2023-148309OA-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF, EU.
-
-<img src="https://raw.githubusercontent.com/ersilia-os/ersilia/master/assets/miciu_cofinanciado.jpg" width="300">
-
 # Antimicrobial activity prediction against Mycobacterium tuberculosis from public ChEMBL and PubChem data
 
 Bioactivity prediction of growth inhibition in Mycobacterium tuberculosis, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
@@ -32,16 +28,16 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-05-21.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| consensus_score | float | high | Tanh-transformed quality-weighted consensus probability across the 56 sub-models. Recommended threshold: 0.951. |
-| individual_percenteffect_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649948 (single-point % effect; cutoff 50 %; n=86589). Recommended threshold: 0.774. |
-| individual_percenteffect_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649971 (single-point % effect; cutoff 50 %; n=68613). Recommended threshold: 0.853. |
-| individual_percenteffect_c | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649961 (single-point % effect; cutoff 50 %; n=53165). Recommended threshold: 0.776. |
-| individual_ic50_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649949 (IC50; cutoff 10 uM; n=2468). Recommended threshold: 0.711. |
-| individual_ic50_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649948 (IC50; cutoff 20 uM; n=2466). Recommended threshold: 0.671. |
-| individual_mic90_decoys_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL2098495 (MIC90; cutoff 10 uM; n=7760 incl. decoys). Recommended threshold: 0.834. |
-| individual_mic90_decoys_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL2098496 (MIC90; cutoff 10 uM; n=1770 incl. decoys). Recommended threshold: 0.783. |
-| individual_mic_decoys_c | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1634496 (MIC; cutoff 10 uM; n=1210 incl. decoys). Recommended threshold: 0.896. |
-| individual_mic_decoys_d | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1049617 (MIC; cutoff 10 uM; n=1150 incl. decoys). Recommended threshold: 0.908. |
+| consensus_score | float | high | Tanh-transformed quality-weighted consensus probability across the 56 sub-models. Recommended threshold: 0.956. |
+| individual_percenteffect_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649948 (percent effect; cutoff 50%; n=86589). Recommended threshold: 0.763. |
+| individual_percenteffect_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649961 (percent effect; cutoff 50%; n=53165). Recommended threshold: 0.774. |
+| individual_ic50_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649949 (IC50 measurements; cutoff 10 uM; n=2468). Recommended threshold: 0.736. |
+| individual_ic50_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649948 (IC50 measurements; cutoff 20 uM; n=2466). Recommended threshold: 0.682. |
+| individual_mic90_decoys_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL2098495 (MIC90 measurements; cutoff 10 uM; n=7760). Recommended threshold: 0.818. |
+| individual_mic90_decoys_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL2098496 (MIC90 measurements; cutoff 10 uM; n=1770). Recommended threshold: 0.786. |
+| individual_mic_decoys_d | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1634496 (MIC measurements; cutoff 10 uM; n=1210). Recommended threshold: 0.9. |
+| individual_mic_decoys_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1049617 (MIC measurements; cutoff 10 uM; n=1150). Recommended threshold: 0.899. |
+| individual_mic_decoys_f | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL5246903 (MIC measurements; cutoff 10 uM; n=1140). Recommended threshold: 0.899. |
 
 _10 of 57 columns are shown_
 ### Source and Deployment
