@@ -22,7 +22,9 @@ Output:
   - Score
 Output Dimension: 57
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Mycobacterium tuberculosis from 56 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Mycobacterium 
+  tuberculosis from 56 ChEMBL- and PubChem-trained sub-models, plus a 
+  quality-weighted consensus score.
 Tag:
   - Antimicrobial activity
   - ChEMBL
