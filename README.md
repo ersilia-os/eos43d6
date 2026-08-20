@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Mycobacterium tuberculosis from public ChEMBL and PubChem data
 
-Estimates activity against Mycobacterium tuberculosis by combining 34 independent classifiers, each fitted to a distinct pool of bioactivity data drawn from ChEMBL and PubChem. Tuberculosis benefits from far more public screening data than most pathogens, which is why this panel is larger than its counterparts for other organisms, and single-point and dose-response measurements are kept apart throughout. A quality-weighted consensus summarises the panel into one score.
+Bioactivity prediction of growth inhibition in Mycobacterium tuberculosis, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `35`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of Mycobacterium tuberculosis inhibition across 34 sub-models, plus a weighted consensus.
+- **Interpretation:** Probability of antimicrobial activity against Mycobacterium tuberculosis from 34 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
