@@ -1,36 +1,36 @@
 name,type,direction,description
-consensus_score,float,high,Tanh-transformed quality-weighted consensus probability across the 34 sub-models. Recommended threshold: 0.698.
-chembl_single_point_0,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 52 assays (87159 compounds). Recommended threshold: 0.8.
-chembl_single_point_1,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 23 assays (1032 compounds; incl. 419 added negatives). Recommended threshold: 0.497.
-chembl_single_point_2,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 56 assays (918 compounds; incl. 192 added negatives). Recommended threshold: 0.514.
-chembl_single_point_3,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 35 assays (834 compounds; incl. 201 added negatives). Recommended threshold: 0.469.
-chembl_single_point_4,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 18 assays (690 compounds). Recommended threshold: 0.716.
-chembl_single_point_5,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 47 assays (565 compounds). Recommended threshold: 0.517.
-chembl_single_point_6,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 40 assays (437 compounds). Recommended threshold: 0.501.
-chembl_single_point_7,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 14 assays (328 compounds). Recommended threshold: 0.567.
-chembl_single_point_8,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 19 assays (308 compounds; incl. 15 added negatives). Recommended threshold: 0.476.
-chembl_single_point_9,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 21 assays (209 compounds). Recommended threshold: 0.49.
-chembl_dose_response_00,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 728 assays (10659 compounds). Recommended threshold: 0.598.
-chembl_dose_response_01,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 451 assays (7523 compounds). Recommended threshold: 0.663.
-chembl_dose_response_02,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 421 assays (6045 compounds). Recommended threshold: 0.602.
-chembl_dose_response_03,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 267 assays (3629 compounds). Recommended threshold: 0.55.
-chembl_dose_response_04,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 74 assays (3082 compounds). Recommended threshold: 0.822.
-chembl_dose_response_05,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 66 assays (2450 compounds; incl. 1039 added negatives). Recommended threshold: 0.525.
-chembl_dose_response_06,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 99 assays (1561 compounds). Recommended threshold: 0.602.
-chembl_dose_response_07,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 121 assays (1542 compounds). Recommended threshold: 0.557.
-chembl_dose_response_08,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 57 assays (772 compounds; incl. 277 added negatives). Recommended threshold: 0.545.
-chembl_dose_response_09,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 75 assays (659 compounds). Recommended threshold: 0.529.
-chembl_dose_response_10,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 72 assays (618 compounds). Recommended threshold: 0.479.
-chembl_dose_response_11,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 27 assays (492 compounds). Recommended threshold: 0.731.
-chembl_dose_response_12,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 43 assays (451 compounds). Recommended threshold: 0.594.
-chembl_dose_response_13,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 21 assays (293 compounds). Recommended threshold: 0.613.
-chembl_dose_response_14,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 18 assays (174 compounds). Recommended threshold: 0.405.
-pubchem_0,float,high,Probability from sub-model trained on PubChem whole-cell organism screen merged from 3 assays (329692 compounds). Recommended threshold: 0.768.
-pubchem_1,float,high,Probability from sub-model trained on PubChem whole-cell organism screen merged from 2 assays (144 compounds; incl. 32 added negatives). Recommended threshold: 0.535.
-pubchem_aid1949,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 1949 (97510 compounds). Recommended threshold: 0.855.
-pubchem_aid2842,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 2842 (23462 compounds). Recommended threshold: 0.84.
-pubchem_aid449764,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 449764 (3464 compounds; incl. 1202 added negatives). Recommended threshold: 0.489.
-pubchem_aid492952,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 492952 (2906 compounds; incl. 612 added negatives). Recommended threshold: 0.497.
-pubchem_aid1259417,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 1259417 (1512 compounds; incl. 407 added negatives). Recommended threshold: 0.473.
-pubchem_aid1332,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 1332 (1092 compounds). Recommended threshold: 0.77.
-pubchem_aid743175,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 743175 (106 compounds). Recommended threshold: 0.594.
+consensus_score,float,high,Quality-weighted consensus across the 34 sub-models on the same rank scale as the sub-models. Calibrated against a reference library of 50K drug-like molecules so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65.
+chembl_single_point_0,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 52 assays (87159 compounds). Recommended threshold: 0.65.
+chembl_single_point_1,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 23 assays (1032 compounds; incl. 419 added negatives). Recommended threshold: 0.65.
+chembl_single_point_2,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 56 assays (918 compounds; incl. 192 added negatives). Recommended threshold: 0.65.
+chembl_single_point_3,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 35 assays (834 compounds; incl. 201 added negatives). Recommended threshold: 0.65.
+chembl_single_point_4,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 18 assays (690 compounds). Recommended threshold: 0.65.
+chembl_single_point_5,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 47 assays (565 compounds). Recommended threshold: 0.65.
+chembl_single_point_6,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 40 assays (437 compounds). Recommended threshold: 0.65.
+chembl_single_point_7,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 14 assays (328 compounds). Recommended threshold: 0.65.
+chembl_single_point_8,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 19 assays (308 compounds; incl. 15 added negatives). Recommended threshold: 0.65.
+chembl_single_point_9,float,high,Probability from sub-model trained on ChEMBL single-point signal-based pool of 21 assays (209 compounds). Recommended threshold: 0.65.
+chembl_dose_response_00,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 728 assays (10659 compounds). Recommended threshold: 0.65.
+chembl_dose_response_01,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 451 assays (7523 compounds). Recommended threshold: 0.65.
+chembl_dose_response_02,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 421 assays (6045 compounds). Recommended threshold: 0.65.
+chembl_dose_response_03,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 267 assays (3629 compounds). Recommended threshold: 0.65.
+chembl_dose_response_04,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 74 assays (3082 compounds). Recommended threshold: 0.65.
+chembl_dose_response_05,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 66 assays (2450 compounds; incl. 1039 added negatives). Recommended threshold: 0.65.
+chembl_dose_response_06,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 99 assays (1561 compounds). Recommended threshold: 0.65.
+chembl_dose_response_07,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 121 assays (1542 compounds). Recommended threshold: 0.65.
+chembl_dose_response_08,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 57 assays (772 compounds; incl. 277 added negatives). Recommended threshold: 0.65.
+chembl_dose_response_09,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 75 assays (659 compounds). Recommended threshold: 0.65.
+chembl_dose_response_10,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 72 assays (618 compounds). Recommended threshold: 0.65.
+chembl_dose_response_11,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 27 assays (492 compounds). Recommended threshold: 0.65.
+chembl_dose_response_12,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 43 assays (451 compounds). Recommended threshold: 0.65.
+chembl_dose_response_13,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 21 assays (293 compounds). Recommended threshold: 0.65.
+chembl_dose_response_14,float,high,Probability from sub-model trained on ChEMBL dose-response signal-based pool of 18 assays (174 compounds). Recommended threshold: 0.65.
+pubchem_0,float,high,Probability from sub-model trained on PubChem whole-cell organism screen merged from 3 assays (329692 compounds). Recommended threshold: 0.65.
+pubchem_1,float,high,Probability from sub-model trained on PubChem whole-cell organism screen merged from 2 assays (144 compounds; incl. 32 added negatives). Recommended threshold: 0.65.
+pubchem_aid1949,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 1949 (97510 compounds). Recommended threshold: 0.65.
+pubchem_aid2842,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 2842 (23462 compounds). Recommended threshold: 0.65.
+pubchem_aid449764,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 449764 (3464 compounds; incl. 1202 added negatives). Recommended threshold: 0.65.
+pubchem_aid492952,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 492952 (2906 compounds; incl. 612 added negatives). Recommended threshold: 0.65.
+pubchem_aid1259417,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 1259417 (1512 compounds; incl. 407 added negatives). Recommended threshold: 0.65.
+pubchem_aid1332,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 1332 (1092 compounds). Recommended threshold: 0.65.
+pubchem_aid743175,float,high,Probability from sub-model trained on PubChem whole-cell organism assay AID 743175 (106 compounds). Recommended threshold: 0.65.
