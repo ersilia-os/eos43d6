@@ -11,8 +11,8 @@
   "decision_cutoff_logit": -0.26760932851640246,
   "calibrator": {
     "method": "platt",
-    "coef": 4.503167385455924,
-    "intercept": -2.294034651971568
+    "coef": 4.503167385455925,
+    "intercept": -2.2940346519715686
   },
   "ranker": {
     "knots": [

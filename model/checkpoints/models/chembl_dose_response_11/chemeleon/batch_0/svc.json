@@ -544,6 +544,7 @@
       0.8205102348591207
     ]
   },
+  "score_column": 0,
   "score_canary": {
     "seed": 20240917,
     "n_rows": 8,
