@@ -3,7 +3,7 @@
 Bioactivity prediction of growth inhibition in Mycobacterium tuberculosis, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
 This model was incorporated on 2026-05-19.
-Last packaged on 2026-10-06.
+Last packaged on 2026-11-18.
 
 ## Information
 ### Identifiers
@@ -52,11 +52,11 @@ _10 of 35 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1616`
 - **Environment Size (Mb):** `7923`
-- **Image Size (Mb):** `9803.07`
+- **Image Size (Mb):** `4313.11`
 
 **Computational Performance (seconds):**
-- 10 inputs: `81.18`
-- 100 inputs: `80.33`
+- 10 inputs: `77.82`
+- 100 inputs: `76.89`
 - 10000 inputs: `-1`
 
 ### References
