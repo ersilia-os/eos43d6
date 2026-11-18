@@ -1,6 +1,6 @@
 Identifier: eos43d6
 Slug: antimicrobial-activity-mtuberculosis
-Status: In maintenance
+Status: Ready
 Title: Antimicrobial activity prediction against Mycobacterium tuberculosis from
   public ChEMBL and PubChem data
 Description: Bioactivity prediction of growth inhibition in Mycobacterium 
@@ -40,8 +40,8 @@ Source Code: https://github.com/ersilia-os/chembl-antimicrobial-models
 License: GPL-3.0-or-later
 Contributor: arnaucoma24
 Incorporation Date: '2026-05-19'
-Last Packaging Date: '2026-10-06'
-Release: v4.0.1
+Last Packaging Date: '2026-11-18'
+Release: v4.0.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos43d6.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos43d6
 Docker Architecture:
@@ -49,9 +49,9 @@ Docker Architecture:
   - ARM64
 Model Size: 1616.0
 Environment Size: 7923.0
-Image Size: 9803.07
-Computational Performance 1: 81.18
-Computational Performance 2: 73.16
-Computational Performance 3: 80.33
-Computational Performance 4: 632.67
+Image Size: 4313.11
+Computational Performance 1: 77.82
+Computational Performance 2: 68.49
+Computational Performance 3: 76.89
+Computational Performance 4: 622.4
 Computational Performance 5: -1.0
